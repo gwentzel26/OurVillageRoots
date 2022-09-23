@@ -3,6 +3,11 @@ import React from 'react';
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from './pages/Home';
+import History from './pages/History';
+import AboutUs from './pages/AboutUs';
+import Donation from './pages/Donation';
+import Contact from './pages/Contact';
+import Vision from './pages/Vision';
 
 function App() {
   return (
@@ -13,9 +18,12 @@ function App() {
     <div className='container'>
     <Routes> 
         <Route path="/" element={<Home />} />
-        {/* <Route path='/edit/:id' element = {<EditExercise/>} />
-        <Route path='/create' element = {<CreateExercise/>} />
-        <Route path='/user' element = {<CreateUser/>} /> */}
+        {/* {/* <Route path='/edit/:id' element = {<EditExercise/>} /> */}
+        <Route path='/history' element = {<History/>} />
+        <Route path='/aboutus' element = {<AboutUs/>} />
+        <Route path='/donate' element = {<Donation/>} />
+        <Route path='/contact' element = {<Contact/>} />
+        <Route path='/vision' element = {<Vision/>} />
     </Routes> 
     </div>
     </BrowserRouter>
