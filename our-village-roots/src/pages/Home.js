@@ -23,11 +23,21 @@ const Home = () => {
             <header>
                 <Navbar />
             </header>
-      
-        <h2>
-              Serving Mama Africa… One Village At A Time
-        </h2>
+      <main>
+            <h2>
+                Serving Mama Africa… One Village At A Time
+            </h2>
         <h3>Ndoucouman, Sengegal</h3>
+
+        <div>
+            <img src="">
+            </img>
+        </div>
+
+      </main>
+        
+
+
       
         </>
 

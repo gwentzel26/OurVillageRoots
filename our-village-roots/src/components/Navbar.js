@@ -7,7 +7,7 @@ export default class Navbar extends Component {
 
     render(){
         return(
-          <nav className="d-flex navbar navbar-expand-lg bg-light ">
+          <nav className="d-flex navbar navbar-expand-lg bg-light">
             <div className="d-flex ">
                   <a className="navbar-brand" href="/">Our Village Roots</a>
             </div>
