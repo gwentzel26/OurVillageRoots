@@ -12,8 +12,10 @@ import {
 } from "react-bootstrap";
 import Navbar from "../components/Navbar";
 import townsign from "../assets/images/townsign.jpg";
-import '../css/Home.css'
-import watertower from "../assets/images/watertower.jpg"
+import '../css/Home.css';
+import watertower from "../assets/images/watertower.jpg";
+import flag from "../assets/images/senegalFlag.jpeg"
+
 
 const Home = () => {
   return (
@@ -24,7 +26,13 @@ const Home = () => {
         </header>
         <main>
           <h2 >Serving Mama Africa… One Village At A Time</h2>
-          <h3>Ndoucouman, Sengegal</h3>
+          <div className="location">
+            <h3>Ndoucouman, Senegal
+                <img className="senegalFlag" src={flag} style={{width: "3vw", height: "4vh"}}/>
+            </h3>
+
+          </div>
+          
 
           <div>
             {/* <img
@@ -39,8 +47,9 @@ const Home = () => {
       </div>
 
       <div className="btmHome">
-        <h1>100% of your donation will go towards enhancing the village's sustainability. This includes, </h1>
-            <ul>
+        <h1>100% of your donation will go towards... </h1>
+        <div className="goalsContainer">
+            <ul className="donationGoals">
                 <li>Increasing the water tower's capacity</li>
                 <li>Installing  an additional solar panel for the community's power</li>
                 <li>Enhancing the infrastructure of several older dwellings</li>
@@ -49,10 +58,16 @@ const Home = () => {
                 <li>Expanding the medical facility, which includes housing for volunteer American physicians</li>
             </ul>
 
-            <div>
-                <img src={watertower} alt="Watertower of Ndoucouman" style={{width: "30vw", height: "60vh"}}/>
+            <div className="picCarousel d-flex">
+                <img id="waterPic" src={watertower} alt="Watertower of Ndoucouman" style={{width: "20vw", height: "40vh"}}/>
             </div>
+
+        </div>   
       </div>
+
+      <footer>
+            Made by G MONEY, Y'all ready know
+      </footer>
     </>
   );
 };

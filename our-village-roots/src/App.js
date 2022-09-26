@@ -7,15 +7,12 @@ import History from './pages/History';
 import AboutUs from './pages/AboutUs';
 import Donation from './pages/Donation';
 import Contact from './pages/Contact';
-import Vision from './pages/Vision';
 
 function App() {
   return (
     <>
 
 <BrowserRouter>
-    
-    
     <Routes> 
         <Route path="/" element={<Home />} />
         {/* {/* <Route path='/edit/:id' element = {<EditExercise/>} /> */}
@@ -23,7 +20,6 @@ function App() {
         <Route path='/aboutus' element = {<AboutUs/>} />
         <Route path='/donate' element = {<Donation/>} />
         <Route path='/contact' element = {<Contact/>} />
-        <Route path='/vision' element = {<Vision/>} />
     </Routes> 
     
     </BrowserRouter>

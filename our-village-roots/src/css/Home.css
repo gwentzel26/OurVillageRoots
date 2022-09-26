@@ -1,25 +1,80 @@
 main {
     display: flex;
     width: 100%;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    color: rgb(105, 52, 52);
+    font-family: cardo;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 56px;
 }
 h2 {
-    color: white;
+    color: rgb(105, 52, 52);
     text-align: center;
     font-size: 48px;
     font-family: kazimir;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
+    margin-left: 25%;
+    -webkit-text-stroke: .75px black; /* width and color */
 }
 
 h3 {
     display: flex;
-    margin-left: 55vw;
-    font-family: kazimir;
+    font-family: kazimir, Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 300;
 }
 
 .btmHome {
-    background-color: #ffd9aa;
+    background: linear-gradient(#fff4e7, #ffe8cd ) ;
     border-top: 6px double rgb(105, 52, 52);
+    padding-bottom: 4vh;
+}
+
+.donationGoals {
+    color: rgb(105, 52, 52);
+    font-family: cardo, Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: 6px double rgb(105, 52, 52) ;
+}
+
+.goalsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-top: 8vh;
+
+}
+.location {
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 8vh;
+}
+
+.senegalFlag {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: -.2vh;
+    
+}
+
+.picCarousel {
+    justify-content: start;
+    border: black;
+    margin-left: 2vw;
+    margin-top: -2vh;
+}
+
+footer {
+    text-align: center;
+    font-size: 38px;
+    font-family: cursive;
+    color: white;
+    font-weight: 400;
+    background-color: rgb(140, 37, 37);
 }

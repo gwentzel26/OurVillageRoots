@@ -10,8 +10,9 @@ import {
     CardColumns,
   } from "react-bootstrap";
   import Navbar from "../components/Navbar";
-  import holdingbaby from "../assets/images/holdingbaby.jpg"
-
+  import holdingbaby from "../assets/images/holdingbaby.jpg";
+  import "../css/AboutUs.css";
+  import flag from "../assets/images/senegalFlag.jpeg"
 
 
 
@@ -22,6 +23,12 @@ const AboutUs = () => {
         <>
             <header>
                 <Navbar />
+                <div className="locationNav">
+                <h3>Ndoucouman, Senegal
+                    <img className="senegalFlag" src={flag} style={{width: "3vw", height: "4vh"}}/>
+                </h3>
+
+          </div>
             </header>
             <main>
                 <div className="aboutContent">

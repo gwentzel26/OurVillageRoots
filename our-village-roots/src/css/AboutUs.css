@@ -1,0 +1,7 @@
+.locationNav {
+    position: absolute;
+    margin-top: -6vh;
+    margin-left: 18vw;
+    color:rgb(69, 34, 34);
+    -webkit-text-stroke: .5px black; /* width and color */
+  }
