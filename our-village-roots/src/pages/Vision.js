@@ -10,6 +10,7 @@ import {
     CardColumns,
   } from "react-bootstrap";
   import Navbar from "../components/Navbar";
+  import watertower from "../assets/images/watertower.jpg";
 
 
 
@@ -32,6 +33,10 @@ const Vision = () => {
                 <li>Purchasing and shipping a hybrid vehicle, allowing us ease of access in moving produce (and people).</li>
                 <li>Expanding the medical facility, which includes housing for volunteer American physicians</li>
             </ul>
+
+            <div>
+                <img src={watertower} alt="Watertower of Ndoucouman" style={{width: "30vw", height: "60vh"}}/>
+            </div>
         </>
 
 

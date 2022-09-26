@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    width: 100%;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: kazimir;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h3 {
+    display: flex;
+    margin-left: 55vw;
+    font-family: kazimir;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.btmHome {
+    background-color: #ffd9aa;
+    border-top: 6px double rgb(105, 52, 52);
+}

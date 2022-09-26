@@ -15,7 +15,7 @@ function App() {
 
 <BrowserRouter>
     
-    <div className='container'>
+    
     <Routes> 
         <Route path="/" element={<Home />} />
         {/* {/* <Route path='/edit/:id' element = {<EditExercise/>} /> */}
@@ -25,7 +25,7 @@ function App() {
         <Route path='/contact' element = {<Contact/>} />
         <Route path='/vision' element = {<Vision/>} />
     </Routes> 
-    </div>
+    
     </BrowserRouter>
     </>
   );

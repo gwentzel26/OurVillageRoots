@@ -10,6 +10,7 @@ import {
     CardColumns,
   } from "react-bootstrap";
   import Navbar from "../components/Navbar";
+  import holdingbaby from "../assets/images/holdingbaby.jpg"
 
 
 
@@ -23,11 +24,20 @@ const AboutUs = () => {
                 <Navbar />
             </header>
             <main>
-                <p> Our Village Roots trust was founded by Serigne and Sabrina N’Diaye. Their marriage is more than just a 
-            life-long partnership– it is a blend of cultures, religions, and history.  Together, with their young adult 
-            daughters, they have served as bridges between the sometimes hectic pace of American life and the slow, melodic,  
-            rhythm of the village experience. </p>
+                <div className="aboutContent">
+                    <div className="aboutDescrip">
+                        <p> Our Village Roots trust was founded by Serigne and Sabrina N’Diaye. Their marriage is more than just a 
+                        life-long <br></br>partnership– it is a blend of cultures, religions, and history.  Together, with their young adult 
+                        daughters, they have <br></br>served as bridges between the sometimes hectic pace of American life and the slow, melodic,  
+                        rhythm of the <br></br> village experience. </p>
+                    </div>
+                    <div className="holdBaby">
+                        <img src={holdingbaby} alt="Serigne holding baby" style={{width: "26vw", height: "60vh"}}/>
+                    </div>
 
+                </div>
+               
+           
             </main>
            
       

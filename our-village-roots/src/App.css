@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+html, body { 
+  height: 100%;   
+  width: 100%; 
+  margin: 0; 
+  padding: 0; 
+}
+
 /* .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -12,3 +19,32 @@
   font-size: calc(10px + 2vmin);
   color: white;
 } */
+
+.aboutContent {
+  display: flex;
+  font-size: 18px;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.aboutDescrip {
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+
+.broomNav {
+  width: 100%;
+}
+.holdBaby {
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+
+.homeBackground {
+  background-image: url("./assets/images/twoKids.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100vw;
+  height: 80vh;
+}
