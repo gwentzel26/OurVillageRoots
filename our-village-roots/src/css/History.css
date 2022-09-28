@@ -29,4 +29,15 @@
     margin-left: 5vw;
     margin-top: -20vh;
     border: 2px solid rgb(105,52,52);
+    float: left;
 } 
+
+#ndouc {
+    position: relative;
+    font-size: 1.5vw;
+}
+.senegalFlag {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: -.2vh;
+}

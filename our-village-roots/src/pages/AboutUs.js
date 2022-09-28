@@ -12,7 +12,8 @@ import {
   import Navbar from "../components/Navbar";
   import holdingbaby from "../assets/images/holdingbaby.jpg";
   import "../css/AboutUs.css";
-  import flag from "../assets/images/senegalFlag.jpeg"
+  import flag from "../assets/images/senegalFlag.jpeg";
+  import facebook from "../assets/images/facebook.jpeg"
 
 
 
@@ -43,7 +44,10 @@ const AboutUs = () => {
                     </div>
 
                 </div>
-               
+                <div className="contactInfo">
+                    <img src={facebook} alt="facebook icon" style={{width: "3.2vw", height: "5.6vh"}}/>
+                    Sabrina
+                </div>
            
             </main>
            

@@ -21,7 +21,7 @@ const History = () => {
       <header>
         <Navbar />
         <div className="locationNav">
-                <h3>Ndoucouman, Senegal
+                <h3 id="ndouc">Ndoucouman, Senegal
                     <img className="senegalFlag" src={flag} style={{width: "3vw", height: "4vh"}}/>
                 </h3>
 
@@ -38,10 +38,9 @@ const History = () => {
           connecting us all with the countless Americans whose ancestors were
           once stolen and sold from this region. Today, Village Roots <br></br>is
           committed to the preservation of Wolof traditions, along with the
-          sustainability of the village
+          sustainability of the village.
         </p>
             <img src={map} className="senegalMap" style={{width: "25vw", height: "40vh"}} ></img>
-       
             <img src={townsign} id="townsign" style={{width: "25vw", height: "45vh"}} ></img>
         
 

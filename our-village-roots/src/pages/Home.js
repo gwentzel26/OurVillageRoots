@@ -27,7 +27,7 @@ const Home = () => {
         <main>
           <h2 >Serving Mama Africa… One Village At A Time</h2>
           <div className="location">
-            <h3>Ndoucouman, Senegal
+            <h3 id="ndouc">Ndoucouman, Senegal
                 <img className="senegalFlag" src={flag} style={{width: "3vw", height: "4vh"}}/>
             </h3>
 
