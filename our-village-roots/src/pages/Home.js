@@ -14,40 +14,53 @@ import Navbar from "../components/Navbar";
 import townsign from "../assets/images/townsign.jpg";
 import '../css/Home.css';
 import watertower from "../assets/images/watertower.jpg";
-import flag from "../assets/images/senegalFlag.jpeg"
+import flag from "../assets/images/senegalFlag.jpeg";
+import closeGirl from "../assets/images/closeupGirl.jpg";
+import closeKid from "../assets/images/closeupkid.jpg";
+import goldDress from "../assets/images/goldDress.jpg";
+import huts from "../assets/images/huts.jpg";
+import horse from "../assets/images/horse.jpg";
+import mimi from "../assets/images/mimindoukman.jpg";
+import threechildren from "../assets/images/threechildren.jpg";
+import oldman from "../assets/images/oldman.jpeg"
+
 
 
 const Home = () => {
   return (
     <>
-      <div className="homeBackground">
+      <div>
         <header>
           <Navbar />
         </header>
         <main>
-          <h2 >Serving Mama Africa… One Village At A Time</h2>
-          <div className="location">
-            <h3 id="ndouc">Ndoucouman, Senegal
-                <img className="senegalFlag" src={flag} style={{width: "3vw", height: "4vh"}}/>
-            </h3>
+                <div className="homeBackground">
+                <h2 >Serving Mama Africa… One Village At A Time</h2>
 
-          </div>
-          
 
-          <div>
-            {/* <img
-              src={townsign}
-              alt="Townsign of Ndoucouman"
-              style={{ width: "30vw", height: "60vh" }}
-            /> */}
-          </div>
-
-          
+                </div>
+                
+      
         </main>
       </div>
 
       <div className="btmHome">
         <h1>100% of your donation will go towards... </h1>
+        <div className="Container">
+                {/* <div className="handle left-handle"></div> */}
+                <div className="picCarousel">
+                    <img id="waterPic" src={watertower} alt="Watertower of Ndoucouman" />
+                    <img src={closeGirl}></img>
+                    <img src={closeKid}></img>
+                    <img src={goldDress}></img>
+                    <img src={oldman}></img>
+                    <img src={huts}></img>
+                    <img src={horse}></img>
+                    <img src={mimi}></img>
+                    <img src={threechildren}></img>
+                </div>
+                {/* <button className="handle right-handle"></button> */}
+            </div>
         <div className="goalsContainer">
             <ul className="donationGoals">
                 <li>Increasing the water tower's capacity</li>
@@ -58,10 +71,7 @@ const Home = () => {
                 <li>Expanding the medical facility, which includes housing for volunteer American physicians</li>
             </ul>
 
-            <div className="picCarousel d-flex">
-                <img id="waterPic" src={watertower} alt="Watertower of Ndoucouman" style={{width: "20vw", height: "40vh"}}/>
-            </div>
-
+           
         </div>   
       </div>
 

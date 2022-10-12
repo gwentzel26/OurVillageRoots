@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import History from './pages/History';
 import AboutUs from './pages/AboutUs';
 import Donation from './pages/Donation';
-import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -15,11 +14,9 @@ function App() {
 <BrowserRouter>
     <Routes> 
         <Route path="/" element={<Home />} />
-        {/* {/* <Route path='/edit/:id' element = {<EditExercise/>} /> */}
         <Route path='/history' element = {<History/>} />
         <Route path='/aboutus' element = {<AboutUs/>} />
         <Route path='/donate' element = {<Donation/>} />
-        <Route path='/contact' element = {<Contact/>} />
     </Routes> 
     
     </BrowserRouter>

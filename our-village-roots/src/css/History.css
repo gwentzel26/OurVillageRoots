@@ -1,20 +1,43 @@
+/* html {
+    height: 100%;
+} */
+body {
+    /* height: 100vh; */
+    background: linear-gradient(#fff4e7, #ffe8cd ); 
+    display: flex;
+    flex-direction: column;
+}
+ header {
+    /* display: flex; */
+    
+ }
 .photoContainer {
     display: flex;
     /* justify-content: space-evenly; */
 }
-
+.historyContainer {
+    display: flex;
+    flex-direction: column;
+    
+}
 .historyContent {
     display: flex;
     flex-wrap: wrap;
     width: 60vw;
-    height: 20vh;
+    height: 30vh;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: kazimir, Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 29, 29);
     /* flex-direction: column;  */
 
 }
 
 .locationNav {
+    display: flex;
     position: absolute;
-    margin-top: -6vh;
+    /* margin-top: -6vh; */
     margin-left: 18vw;
     color:rgb(69, 34, 34);
     -webkit-text-stroke: .5px black; /* width and color */
@@ -23,13 +46,16 @@
     margin-left: 70vw;
     margin-top: -22vh;
     border: 2px solid rgb(105,52,52);
+    width: 25%;
+    aspect-ratio: 1.2;
 }
 
 #townsign {
-    margin-left: 5vw;
-    margin-top: -20vh;
+    margin: 0 0 5vw 5vw;
     border: 2px solid rgb(105,52,52);
-    float: left;
+    width: 25%;
+    
+    aspect-ratio: 1 !important;
 } 
 
 #ndouc {
@@ -38,6 +64,37 @@
 }
 .senegalFlag {
     position: absolute;
-    margin-left: 16vw;
-    margin-top: -.2vh;
+     margin-left: 21vw;
+    margin-top: -1vh; 
+    width: 4%;
+    aspect-ratio: 16/9;
+}
+
+@media only screen and (max-width: 1550px) {
+    #townsign {
+        margin-left: 5vw;
+        margin-top: 5vh;
+    } 
+}
+@media only screen and (max-width: 1250px) {
+    #townsign {
+        margin-left: 5vw;
+        margin-top: 15vh;
+    } 
+}
+
+@media only screen and (max-width: 1050px) {
+    #townsign {
+        margin-left: 70vw;
+        margin-top: 10vh;
+    } 
+    
+    .historyContent {
+       
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
 }

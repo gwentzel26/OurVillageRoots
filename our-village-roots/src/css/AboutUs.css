@@ -1,7 +1,64 @@
+.aboutContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutContent {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.aboutDescrip {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+    font-weight: 300;
+    font-family: kazimir, Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 29, 29);
+}
+.contactInfo {
+  width: 25%;
+  margin-top: -25rem;
+}
+.contactInfo > img {
+  width: 4vw;
+  aspect-ratio: 1;
+} 
+
+.holdBaby {
+  width: 35%;
+}
+
+.holdBaby > img {
+  width: 100%;
+  aspect-ratio: .9;
+}
 .locationNav {
     position: absolute;
     margin-top: -6vh;
     margin-left: 18vw;
     color:rgb(69, 34, 34);
     -webkit-text-stroke: .5px black; /* width and color */
+    
   }
+
+  .locationNav h3 {
+    font-size: 1.5vw;
+  }
+
+  .senegalFlag {
+    position: absolute;
+    /* margin-left: 16vw;
+    margin-top: -.2vh; */
+    width: 18%;
+    aspect-ratio: 12/9;
+}
+
+@media only screen and (max-width: 992px) {
+  .holdBaby {
+    width: 50%;
+  }
+}
