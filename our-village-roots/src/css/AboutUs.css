@@ -49,13 +49,13 @@
     font-size: 1.5vw;
   }
 
-  .senegalFlag {
+  /* .senegalFlag {
     position: absolute;
     /* margin-left: 16vw;
     margin-top: -.2vh; */
-    width: 18%;
+    /* width: 18%;
     aspect-ratio: 12/9;
-}
+} */ 
 
 @media only screen and (max-width: 992px) {
   .holdBaby {

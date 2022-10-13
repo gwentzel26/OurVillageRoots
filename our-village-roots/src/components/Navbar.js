@@ -18,7 +18,7 @@ export default class Navbar extends Component {
         return(
           <Nav className="d-flex navbar navbar-expand-lg">
             
-                <div>
+                <div className="logoContainer">
                     <a className="navbar-brand hover-underline-animation effect-shine" href="/">Our Village Roots</a>
                 </div>    
             
@@ -27,15 +27,20 @@ export default class Navbar extends Component {
                     <span className="navbar-toggler-icon"></span>
                 </button> */}
                 <div className="navContainer">
+
                     <div className="d-flex navbar-nav collapse navbar-collapse" id="navbarLinks">
                           <a className="nav-item nav-link hover-underline-animation" href="/history">History</a>
                           <a className="nav-item nav-link hover-underline-animation" href="/aboutus">About Us</a>        
                     </div>
                     
                     <div className="senegalContainer">
-                          <h1 id="ndouc">Ndoukouman Ndiaye, Senegal
-                            <img className="senegalFlag" src={flag}/>
-                          </h1>
+                          <div className="ndoukContainer">
+                              <h1 id="ndouc">Ndoukouman Ndiaye, Senegal</h1>
+                          </div>
+
+                          <div className="flagContainer">
+                              <img className="senegalFlag" src={flag} />
+                          </div>     
                     </div>
                   
                     <div className="donateContainer">
@@ -44,7 +49,7 @@ export default class Navbar extends Component {
                           </button>
                     </div>
                 </div>
-        </Nav>
+          </Nav>
  
         )
     }

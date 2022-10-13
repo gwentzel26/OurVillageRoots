@@ -58,17 +58,17 @@ body {
     aspect-ratio: 1 !important;
 } 
 
-#ndouc {
+/* #ndouc {
     position: relative;
     font-size: 1.5vw;
-}
-.senegalFlag {
+} */
+/* .senegalFlag {
     position: absolute;
      margin-left: 21vw;
     margin-top: -1vh; 
     width: 4%;
     aspect-ratio: 16/9;
-}
+} */
 
 @media only screen and (max-width: 1550px) {
     #townsign {

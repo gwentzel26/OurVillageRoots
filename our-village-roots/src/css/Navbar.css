@@ -3,6 +3,7 @@
     margin-right: 2vw;
     background: linear-gradient(#fff4e7, #ffe8cd );
     justify-content: end;
+    aspect-ratio: 16/9;
     
 
 }
@@ -19,8 +20,10 @@
 }
 
 .donateContainer{
-  width: 25%;
+  display: flex;
+  width: 33%;
   align-content: center;
+  justify-content: end;
 }
 /* .effect-shine {
 
@@ -42,12 +45,10 @@
     }
   }
 
-.locationNav {
-  position: absolute;
-  margin-left: 20vw;
-  color:rgb(69, 34, 34);
-  -webkit-text-stroke: .25px black; /* width and color */
-}
+  .logoContainer {
+    display: flex;
+    width: 25%;
+  }
 .navbar {
     /* background-color: #003366; */
     display: flex;
@@ -55,11 +56,11 @@
     color: #FFFFFF;
     border-bottom: 3px solid rgb(105, 52, 52);
     position: relative;
+    justify-content: space-between;
 }
 
 .navbar-brand {
    display: flex;
-   width: 25%;
    margin-left: 1vw;
     padding: .25vw .25vw;
     /* background-color: wheat; */
@@ -72,25 +73,30 @@
     border-radius: 12%;
     /* border: 1px solid blueviolet; */
     -webkit-text-stroke: .25px black; /* width and color */
+    
 }
 
-/* .navbar-nav {
+.navbar-nav {
    align-items: center;
    justify-content: center;
-   width: 10%;
-} */
+   width: 33%;
+}
 
 .navContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
     width: 75%;
-    margin-left: 25%;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    justify-content: center;
+    
 }
 
 #navbarLinks {
+  display: flex;
     justify-content: center;
-    width: 25%;
+    flex-direction: row;
+    justify-content: space-evenly;
+     width: 33%;
 }
 .nav-link {
     color: rgb(69, 34, 34);
@@ -98,6 +104,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
+    align-self: center;
 }
 
 #ndouc {
@@ -106,7 +113,7 @@
   align-items: center;
   margin-bottom: 0rem;
   color: rgb(69, 34, 34);
-    font-size: 3vw;
+    font-size: 24px;
     /* justify-content: center; */
     font-family: kazimir;
     font-style: normal;
@@ -114,6 +121,22 @@
     border-radius: 12%;
     /* border: 1px solid blueviolet; */
     -webkit-text-stroke: .25px black; /* width and color */
+    position: relative;
+}
+
+.ndoukContainer {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: end;
+}
+
+.flagContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 20%;
+  height: 100%;
 }
 
 .hover-underline-animation {
@@ -140,31 +163,35 @@
   }
 
   .senegalFlag {
-    height: 80%;
-    margin-right: -2rem;
-    margin-bottom: -.5rem;
+    width: 3% !important;
+    position: absolute;    
   }
 
   .senegalContainer {
-    width: 25%;
+    display: flex;
+    width: 33%;
+    align-items: center;
   }
   /* @media only screen and (max-width: 992px) {
     .navbar-links {
       display: none;
     }
   } */
+  @media only screen and (max-width: 992px) {
+    .senegalContainer{
+      display: none;
+    }
+  }
 
   @media only screen and (max-width: 425px) { 
     #donateBtn {
-      /* position: absolute; */
-      margin-top: -14rem;
-        margin-left: 4vw;
-        background: linear-gradient(#fff4e7, #ffe8cd );
+     
     }
 
+  
   }
 
-  @media only screen and (max-width: 992px) {}
+  
 
   @media only screen and (max-width: 375px) {
     .navbar-brand {
@@ -182,9 +209,6 @@
   }
 
   #donateBtn {
-    /* position: absolute; */
-    margin-top: -10rem;
-      margin-left: 6vw;
-      background: linear-gradient(#fff4e7, #ffe8cd );
+  
   }
   }

@@ -20,15 +20,6 @@ const History = () => {
     <>
       <header>
         <Navbar />
-        <div className="locationNav">
-          <h3 id="ndouc">
-            Ndoukouman Ndiaye, Senegal
-          </h3>
-          <img
-              className="senegalFlag"
-              src={flag}
-            />
-        </div>
       </header>
       <body>
         <div className="historyContainer">

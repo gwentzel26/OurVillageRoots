@@ -13,7 +13,7 @@ import {
 import Navbar from "../components/Navbar";
 import townsign from "../assets/images/townsign.jpg";
 import '../css/Home.css';
-import watertower from "../assets/images/watertower.jpg";
+import watertower from "../assets/images/watertowerPeople.jpeg";
 import flag from "../assets/images/senegalFlag.jpeg";
 import closeGirl from "../assets/images/closeupGirl.jpg";
 import closeKid from "../assets/images/closeupkid.jpg";
@@ -22,7 +22,8 @@ import huts from "../assets/images/huts.jpg";
 import horse from "../assets/images/horse.jpg";
 import mimi from "../assets/images/mimindoukman.jpg";
 import threechildren from "../assets/images/threechildren.jpg";
-import oldman from "../assets/images/oldman.jpeg"
+import oldman from "../assets/images/oldman.jpeg";
+import groupKids from "../assets/images/groupKids.jpeg";
 
 
 
@@ -58,6 +59,7 @@ const Home = () => {
                     <img src={horse}></img>
                     <img src={mimi}></img>
                     <img src={threechildren}></img>
+                    <img src={groupKids}></img>
                 </div>
                 {/* <button className="handle right-handle"></button> */}
             </div>

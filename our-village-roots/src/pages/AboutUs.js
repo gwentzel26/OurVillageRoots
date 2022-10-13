@@ -24,12 +24,6 @@ const AboutUs = () => {
         <>
             <header>
                 <Navbar />
-                <div className="locationNav">
-                <h3>Ndoucouman, Senegal
-                    <img className="senegalFlag" src={flag}/>
-                </h3>
-
-          </div>
             </header>
             <main>
                 <div className="aboutContainer">
