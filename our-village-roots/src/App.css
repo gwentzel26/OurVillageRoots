@@ -40,12 +40,3 @@ html, body {
   margin-left: 1vw;
 }
 
-.homeBackground {
-  background-image: url("./assets/images/twoKids.jpeg") ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  width: 100vw;
-  height: 85vh;
-  
-}

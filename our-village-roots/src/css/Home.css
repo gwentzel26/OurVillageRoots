@@ -31,7 +31,9 @@ h3 {
 }
 
 .btmHome {
-    background: linear-gradient(#fff4e7, #ffe8cd ) ;
+    /* background: linear-gradient(#fff4e7, #ffe8cd ) ; */
+    background: linear-gradient(#eeb26e, #ba7143 ) ;
+    /* background-color: #ba8343; */
     border-top: 6px double rgb(105, 52, 52);
     padding-bottom: 4vh;
 }
@@ -59,48 +61,16 @@ h3 {
     max-width: 25%;
     aspect-ratio: 10/9;
     padding: .25rem;
-    border-radius: .75rem;
+    border-radius: 2.2rem;
     
 }
 
-/* .handle {
-    border: none;
-    border-radius: 1rem;
-    width: 5rem;
-    color: aqua;
-    background-color: rgba(255, 15, 15, 0.25);
-    z-index: 10;
-    flex-grow: 0;
-    cursor: pointer;
-} */
-
-/* .left-handle {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-} */
-
-/* .left-handle:hover::after {
-    content: \2039;
-}
-
-.right -handle:hover::after {
-    content: \203A;
-}
-
-.right-handle {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.handle:hover {
-    background-color: rgba(0, 0, 0, .5);
-} */
 .donationGoals {
     width: 65%;
     color: rgb(105, 52, 52);
     font-family: cardo, Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     border: 6px double rgb(105, 52, 52) ;
     padding: 1rem 1rem 1rem 3rem;
 }
@@ -123,7 +93,7 @@ h3 {
     height: 85vh;
     background-position: 75% 5%;
     aspect-ratio: 1.26;
-    align-items: flex-end;
+    align-items: flex-start;
   }
 .location {
     position: absolute;
