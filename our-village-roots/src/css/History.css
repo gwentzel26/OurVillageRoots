@@ -1,16 +1,13 @@
 /* html {
     height: 100%;
 } */
-body {
-    /* height: 100vh; */
+/* body {
+    
     background: linear-gradient(#fff4e7, #ffe8cd ); 
     display: flex;
     flex-direction: column;
-}
- header {
-    /* display: flex; */
-    
- }
+ } */ 
+
 .photoContainer {
     display: flex;
     /* justify-content: space-evenly; */

@@ -12,6 +12,7 @@ import {
   import Navbar from "../components/Navbar";
   import holdingbaby from "../assets/images/holdingbaby.jpg";
   import aboutSabrina from "../assets/images/AboutSabrina.jpeg";
+  import brownFlower from "../assets/images/floral-design-hi.png";
   import "../css/AboutUs.css";
   import flag from "../assets/images/senegalFlag.jpeg";
   import facebook from "../assets/images/facebookIcon.png"
@@ -36,10 +37,21 @@ const AboutUs = () => {
                         </div>
 
                         <div className="aboutDescrip">
-                            <p> Our Village Roots trust was founded by Serigne and Sabrina N’Diaye. Their marriage is more than just a 
-                            life-long partnership– it is a blend of cultures, religions, and history.  Together, with their young adult 
-                            daughters, they have served as bridges between the sometimes hectic pace of American life and the slow, melodic,  
-                            rhythm of the village experience. </p>
+                            <div>
+                                <img className="floralDesign floralRotate" src={brownFlower} alt="Floral Design"/>
+                            </div>
+                                
+                            <div>
+                                <p> Our Village Roots trust was founded by Serigne and Sabrina N’Diaye. Their marriage is more than just a 
+                                life-long partnership– it is a blend of cultures, religions, and history.  Together, with their young adult 
+                                daughters, they have served as bridges between the sometimes hectic pace of American life and the slow, melodic,  
+                                rhythm of the village experience. </p>
+                            </div>
+                            
+                            <div>
+                                <img className="floralDesign" src={brownFlower} alt="Floral Design"/>
+                            </div>
+                            
                         </div>
 
                         <div className="aboutSabrina">

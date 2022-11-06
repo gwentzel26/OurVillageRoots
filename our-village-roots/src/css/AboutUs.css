@@ -1,6 +1,6 @@
 .aboutContainer {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,9 +10,10 @@
 .aboutContent {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: start;
+  /* justify-content: start; */
   width: 100%;
-  height: 75%;
+  height: 50%;
+  align-items: baseline;
   
   /* margin-top: 5vh; */
 }
@@ -23,24 +24,29 @@
   /* aspect-ratio: 16/9; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 
 .aboutSabrina > img {
   width: 80%;
-  height: 70%;
+  height: 75%;
   /* padding-left: 3vw;
   padding-top: 5vh; */
 }
 .aboutDescrip {
   width: 40%;
+  height: 100%;
   display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  flex-direction: column;
   flex-wrap: wrap;
   font-size: 20px;
-    font-weight: 300;
-    font-family: kazimir, Georgia, 'Times New Roman', Times, serif;
-    color: rgb(61, 29, 29);
-    align-content: center;
+  font-weight: 300;
+  font-family: kazimir, Georgia, 'Times New Roman', Times, serif;
+  color: rgb(61, 29, 29);
+  
+    /* justify-content: center; */
 }
 .contactInfo {
   width: 25%;
@@ -51,18 +57,30 @@
   width: 4vw;
   aspect-ratio: 1;
 } 
+ .floralDesign {
+    width: 100%;
+    height: 20%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+ }
+
+ .floralRotate {
+  transform: rotate(180deg);
+ }
 
 .holdBaby {
   width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  
 }
 
 .holdBaby > img {
   width: 80%;
-  height: 70%;
+  height: 75%;
   /* border: 2px; */
   /* border-radius: 2rem; */
   /* aspect-ratio: 16/9; */
@@ -91,6 +109,10 @@
 
 @media only screen and (max-width: 992px) {
   .holdBaby {
+    width: 50%;
+  }
+
+  .aboutSabrina {
     width: 50%;
   }
 }
