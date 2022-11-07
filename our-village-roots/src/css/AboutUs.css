@@ -10,10 +10,10 @@
 .aboutContent {
   display: flex;
   flex-direction: row-reverse;
-  /* justify-content: start; */
+  /* justify-content: center; */
   width: 100%;
   height: 50%;
-  align-items: baseline;
+  align-items: center;
   
   /* margin-top: 5vh; */
 }
@@ -24,12 +24,13 @@
   /* aspect-ratio: 16/9; */
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 
 .aboutSabrina > img {
   width: 80%;
   height: 75%;
+  border: #DE9B72 6px double;
   /* padding-left: 3vw;
   padding-top: 5vh; */
 }
@@ -37,8 +38,8 @@
   width: 40%;
   height: 100%;
   display: flex;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 20px;
@@ -57,12 +58,16 @@
   width: 4vw;
   aspect-ratio: 1;
 } 
+
+.floralContainer {
+  display: flex;
+  justify-content: center;
+}
  .floralDesign {
-    width: 100%;
-    height: 20%;
+    width: 60%;
+    height: 10%;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
  }
 
  .floralRotate {
@@ -74,13 +79,14 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   
 }
 
 .holdBaby > img {
   width: 80%;
   height: 75%;
+  border: #cb8b63 6px double;
   /* border: 2px; */
   /* border-radius: 2rem; */
   /* aspect-ratio: 16/9; */

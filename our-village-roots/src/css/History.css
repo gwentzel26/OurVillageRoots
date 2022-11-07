@@ -12,23 +12,48 @@
     display: flex;
     /* justify-content: space-evenly; */
 }
+
+.historyBackground {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#fff4e7, #ffe8cd );
+    justify-content: center;
+    align-items: flex-start;
+}
 .historyContainer {
     display: flex;
     flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
     
 }
+
 .historyContent {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 60vw;
-    height: 30vh;
-    margin-bottom: 2rem;
+    width: 100%;
+    height: 50%;
+}
+.historyContent > p {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
     font-weight: 300;
     font-family: kazimir, Georgia, 'Times New Roman', Times, serif;
     color: rgb(61, 29, 29);
-    /* flex-direction: column;  */
+    padding: 2rem 0rem 2rem;
+    text-indent: 3rem;
 
+}
+
+.historyImages {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
 }
 
 .locationNav {
@@ -40,17 +65,17 @@
     -webkit-text-stroke: .5px black; /* width and color */
   }
 .senegalMap {
-    margin-left: 70vw;
-    margin-top: -22vh;
+    /* margin-left: 70vw;
+    margin-top: -22vh; */
     border: 2px solid rgb(105,52,52);
-    width: 25%;
+    width: 35%;
     aspect-ratio: 1.2;
 }
 
 #townsign {
-    margin: 0 0 5vw 5vw;
+    /* margin: 0 0 5vw 5vw; */
     border: 2px solid rgb(105,52,52);
-    width: 25%;
+    width: 35%;
     
     aspect-ratio: 1 !important;
 } 
@@ -68,30 +93,22 @@
 } */
 
 @media only screen and (max-width: 1550px) {
-    #townsign {
-        margin-left: 5vw;
-        margin-top: 5vh;
-    } 
+   
 }
 @media only screen and (max-width: 1250px) {
-    #townsign {
-        margin-left: 5vw;
-        margin-top: 15vh;
-    } 
+   
 }
 
 @media only screen and (max-width: 1050px) {
-    #townsign {
-        margin-left: 70vw;
-        margin-top: 10vh;
-    } 
-    
-    .historyContent {
-       
-        height: 100%;
-    }
+  
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
+    #townsign {
+        width: 45% ;
+    }
 
+    .senegalMap {
+        width: 45%;
+    }
 }

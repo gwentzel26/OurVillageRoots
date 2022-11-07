@@ -21,7 +21,7 @@ export default class Navbar extends Component {
                     <span className="navbar-toggler-icon"></span>
                 </button> */}
         <div className="navContainer">
-          <div className="d-flex navbar-nav collapse navbar-collapse" id="navbarLinks">
+          <div className="d-flex navbar-nav" id="navbarLinks">
                 <a className="nav-item nav-link hover-underline-animation"
                   href="/history">History
                 </a>

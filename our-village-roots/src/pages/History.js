@@ -21,40 +21,40 @@ const History = () => {
       <header>
         <Navbar />
       </header>
-      <body>
-        <div className="historyContainer">
-            <p className="m-4 historyContent">
-              Our Village Roots is inspired by Serigne’s roots in Ndoucouman (Wolof
-              for, “trusted home”) Ndiaye, which was founded by
-              Serigne’s paternal grandfather, Makhtar N’Diaye. After
-              hundreds of years of change in the outside world, it remains a
-              tight-knit community of farmers and families. Seven
-              generations are buried on its soil. It rests in the heart of Senegal,
-              West Africa,
-              connecting us all with the countless Americans whose ancestors were
-              once stolen and sold from this region. Today, Village Roots
-              is committed to the preservation of Wolof traditions, along with the
-              sustainability of the village. <br></br> <br></br>
-              In 2021, the N’Diaye family ran a fundraising campaign of all of their
-              American friends, most of whom contributed $25 toward Ndoucouman's
-              residents experiencing a basic need that many of us take for
-              granted--access to clean drinking water. In 2022, Sabrina and Serigne
-              drank the water!
-            </p>
+    <div className="historyBackground">
+
+    
+      <div className="historyContainer">
+          <div className="historyContent">
+              <p>
+                  Our Village Roots is inspired by Serigne’s roots in Ndoucouman (Wolof
+                  for, “trusted home”) Ndiaye, which was founded by
+                  Serigne’s paternal grandfather, Makhtar N’Diaye. After
+                  hundreds of years of change in the outside world, it remains a
+                  tight-knit community of farmers and families. Seven
+                  generations are buried on its soil. It rests in the heart of Senegal,
+                  West Africa,
+                  connecting us all with the countless Americans whose ancestors were
+                  once stolen and sold from this region. Today, Village Roots
+                  is committed to the preservation of Wolof traditions, along with the
+                  sustainability of the village. <br></br> <br></br>
+                  In 2021, the N’Diaye family ran a fundraising campaign of all of their
+                  American friends, most of whom contributed $25 toward Ndoucouman's
+                  residents experiencing a basic need that many of us take for
+                  granted--access to clean drinking water. In 2022, Sabrina and Serigne
+                  drank the water!
+                </p>
+          </div>
+            
             
           
-            <img
-              src={map}
-              className="senegalMap"
-            ></img>
+            <div className="historyImages"> 
+                <img src={map} className="senegalMap"></img>
+                <img src={townsign} id="townsign"></img>
+            </div>    
+      </div>
             
-        </div>
-            <img
-              src={townsign}
-              id="townsign"
-            ></img>
-      </body>
-      
+    </div> 
     </>
   );
 };

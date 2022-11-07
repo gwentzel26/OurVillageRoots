@@ -37,7 +37,7 @@ const AboutUs = () => {
                         </div>
 
                         <div className="aboutDescrip">
-                            <div>
+                            <div className="floralContainer">
                                 <img className="floralDesign floralRotate" src={brownFlower} alt="Floral Design"/>
                             </div>
                                 
@@ -48,7 +48,7 @@ const AboutUs = () => {
                                 rhythm of the village experience. </p>
                             </div>
                             
-                            <div>
+                            <div className="floralContainer">
                                 <img className="floralDesign" src={brownFlower} alt="Floral Design"/>
                             </div>
                             
