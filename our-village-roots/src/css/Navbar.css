@@ -1,7 +1,7 @@
 #donateBtn {
   /* position: absolute; */
     display: flex;
-    margin-right: 2vw;
+    /* margin-right: 2vw; */
     background: linear-gradient(#bd844a, #EDC9AF );
     justify-content: center;
     width: 60%;
@@ -201,39 +201,64 @@
     /* .senegalContainer{
       display: none;
     } */
-  }
+    .ovrLogo {
+      width: 80%;
+    }
 
+    .nav-link {
+      font-size: 3vw;
+    }
+
+    #ndouc {
+      font-size: 2vw;
+    }
+    #donateBtn {
+      width: 90%;
+      height: 65%;
+    }
+    .senegalFlag {
+      width: 5% !important;
+    }
+  }
   @media only screen and (max-width: 425px) { 
     #donateBtn {
-      display: flex;
-      width: 80%;
-      justify-content: center;
-      align-items: center;
+      width: 100%;
+
     }
 
-    #donateLink {
+    /* #donateLink {
       font-size: 18px;
+    } */
+
+    .ovrLogo {
+      width: 100%;
+    }
+    
+    .nav-link {
+      font-size: 4vw;
     }
 
-  
+    #ndouc {
+      /* font-size: 3vw;
+      font-weight: 200; */
+      display: none;
+    }
+    .flagContainer {
+      width: 100%;
+      justify-content: center;
+    }
+    .ndoukContainer {
+      width: 0%;
+    }
+    .senegalFlag {
+      width: 12% !important;
+    }
   }
 
   
 
   @media only screen and (max-width: 375px) {
-    .navbar-brand {
-    font-family: kazimir;
-    font-style: normal;
-    color: rgb(82, 40, 40);
-    font-weight: 300;
-      font-size: 5vw;
-      margin-left: 1rem;
-      -webkit-text-stroke: .1px black; 
-    }
-    .nav-link {
-      font-size: 18px;
-      margin-top: -.4rem;
-  }
+  
 
   #donateBtn {
   
