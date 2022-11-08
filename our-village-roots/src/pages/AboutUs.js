@@ -20,8 +20,6 @@ import {
 
 
 const AboutUs = () => {
-
-
     return(
         <>
             <header>
@@ -64,15 +62,6 @@ const AboutUs = () => {
                             <img src={facebook} alt="facebook icon" />
                             Sabrina
                         </div> */}
-
-
-
-                
-               
-           
-            
-           
-      
         </>
 
 

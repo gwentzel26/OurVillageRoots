@@ -78,7 +78,7 @@ const Home = () => {
       </div>
 
       <footer>
-            Made by G MONEY, Y'all ready know
+            Founded by the N'Diaye family
       </footer>
     </>
   );
