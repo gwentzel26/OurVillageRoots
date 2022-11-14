@@ -13,7 +13,7 @@
       
 ## **Installation <a id="installation"></a>**
   
-  OVR is a react application. Source code is included in the repository and there is an open link to the deployed url.
+  OVR is a react application. Source code is included in the repository and there is an open link to the deployed url. Once you fork the repository you may run npm start to begin your server and open the application in your localhost browser.
       
 ## **How to Contribute <a id="contributions"></a>**
       
