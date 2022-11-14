@@ -105,8 +105,6 @@ h3 {
     position: relative;
 }
 
-
-
 .picCarousel {
     justify-content: start;
     border: black;
@@ -125,7 +123,6 @@ footer {
 
 @media only screen and (max-width: 950px) {
     .picCarousel > img {
-        /* flex: 0 0 25%; */
         max-width: 33%;
         
     }
@@ -139,12 +136,10 @@ footer {
         width: 100vw;
         height: 65vh;
         aspect-ratio: 1.26;
-        
       }
 }
 @media only screen and (max-width: 650px) {
     .picCarousel > img {
-        /* flex: 0 0 25%; */
         aspect-ratio: 12/9;
         padding: .25rem;
         border-radius: .75rem;
@@ -172,9 +167,7 @@ footer {
 }
 @media only screen and (max-width: 425px) {
     .picCarousel > img {
-        /* flex: 0 0 25%; */
         max-width: 50%;
-        
     }
     .homeBackground {
     background-position: top;

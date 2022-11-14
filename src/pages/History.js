@@ -22,8 +22,6 @@ const History = () => {
         <Navbar />
       </header>
     <div className="historyBackground">
-
-    
       <div className="historyContainer">
           <div className="historyContent">
               <p>
@@ -45,9 +43,6 @@ const History = () => {
                   drank the water!
                 </p>
           </div>
-            
-            
-          
             <div className="historyImages"> 
                 <img src={map} className="senegalMap"></img>
                 <img src={townsign} id="townsign"></img>

@@ -1,14 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-    Jumbotron,
-    Container,
-    Col,
-    Form,
-    Button,
-    Card,
-    CardColumns,
-  } from "react-bootstrap";
   import Navbar from "../components/Navbar";
   import holdingbaby from "../assets/images/holdingbaby.jpg";
   import aboutSabrina from "../assets/images/AboutSabrina.jpeg";
@@ -28,8 +19,6 @@ const AboutUs = () => {
            
                 <div className="aboutContainer">
                     <div className="aboutContent">
-                        
-
                         <div className="holdBaby">
                             <img src={holdingbaby} alt="Serigne holding baby"/>
                         </div>
@@ -55,13 +44,8 @@ const AboutUs = () => {
                         <div className="aboutSabrina">
                             <img src={aboutSabrina} alt="Sabrina"/>
                         </div>
-
                     </div>
-                </div>
-                        {/* <div className="contactInfo">
-                            <img src={facebook} alt="facebook icon" />
-                            Sabrina
-                        </div> */}
+                </div>               
         </>
 
 

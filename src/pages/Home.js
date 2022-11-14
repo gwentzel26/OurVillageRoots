@@ -1,20 +1,9 @@
 import { renderMatches } from "react-router-dom";
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  Jumbotron,
-  Container,
-  Col,
-  Form,
-  Button,
-  Card,
-  CardColumns,
-} from "react-bootstrap";
 import Navbar from "../components/Navbar";
-import townsign from "../assets/images/townsign.jpg";
 import '../css/Home.css';
 import watertower from "../assets/images/watertowerPeople.jpeg";
-import flag from "../assets/images/senegalFlag.jpeg";
 import closeGirl from "../assets/images/closeupGirl.jpg";
 import closeKid from "../assets/images/closeupkid.jpg";
 import goldDress from "../assets/images/goldDress.jpg";
@@ -24,8 +13,7 @@ import mimi from "../assets/images/mimindoukman.jpg";
 import threechildren from "../assets/images/threechildren.jpg";
 import oldman from "../assets/images/oldman.jpeg";
 import groupKids from "../assets/images/groupKids.jpeg";
-
-
+import { auto } from "@popperjs/core";
 
 const Home = () => {
   return (
@@ -36,33 +24,27 @@ const Home = () => {
         </header>
         <main>
                 <div className="homeBackground">
-                <h2 >Serving Mama Africa… One Village At A Time</h2>
-
-
+                  <h2 >Serving Mama Africa… One Village At A Time</h2>
                 </div>
-                
-      
         </main>
       </div>
 
       <div className="btmHome">
         <h1>100% of your donation will go towards... </h1>
         <div className="Container">
-                {/* <div className="handle left-handle"></div> */}
                 <div className="picCarousel">
                     <img id="waterPic" src={watertower} alt="Watertower of Ndoucouman" />
-                    <img src={closeGirl}></img>
-                    <img src={closeKid}></img>
-                    <img src={goldDress}></img>
-                    <img src={oldman}></img>
-                    <img src={huts}></img>
-                    <img src={horse}></img>
-                    <img src={mimi}></img>
-                    <img src={threechildren}></img>
-                    <img src={groupKids}></img>
+                    <img src={closeGirl} alt="Close up of a little girl"></img>
+                    <img src={closeKid} alt="Kid making a hand gesture"></img>
+                    <img src={goldDress} alt="Little girl in gold dress"></img>
+                    <img src={oldman} alt="An older man with his grandkid"></img>
+                    <img src={huts} alt="Senegalese Huts"></img>
+                    <img src={horse} alt="Horse and buggy in nearby town"></img>
+                    <img src={mimi} alt="Amina Ndiaye with her cousins"></img>
+                    <img src={threechildren} alt="Three girls sitting against a wall"></img>
+                    <img src={groupKids} alt="Several local children"></img>
                 </div>
-                {/* <button className="handle right-handle"></button> */}
-            </div>
+        </div>
         <div className="goalsContainer">
             <ul className="donationGoals">
                 <li>Increasing the water tower's capacity</li>
@@ -72,8 +54,6 @@ const Home = () => {
                 <li>Purchasing and shipping a hybrid vehicle, allowing us ease of access in moving produce (and people).</li>
                 <li>Expanding the medical facility, which includes housing for volunteer American physicians</li>
             </ul>
-
-           
         </div>   
       </div>
 

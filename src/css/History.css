@@ -1,16 +1,5 @@
-/* html {
-    height: 100%;
-} */
-/* body {
-    
-    background: linear-gradient(#fff4e7, #ffe8cd ); 
-    display: flex;
-    flex-direction: column;
- } */ 
-
 .photoContainer {
     display: flex;
-    /* justify-content: space-evenly; */
 }
 
 .historyBackground {
@@ -61,49 +50,21 @@
 .locationNav {
     display: flex;
     position: absolute;
-    /* margin-top: -6vh; */
     margin-left: 18vw;
     color:rgb(69, 34, 34);
     -webkit-text-stroke: .5px black; /* width and color */
   }
 .senegalMap {
-    /* margin-left: 70vw;
-    margin-top: -22vh; */
     border: 2px solid rgb(105,52,52);
     width: 35%;
     aspect-ratio: 1.2;
 }
 
 #townsign {
-    /* margin: 0 0 5vw 5vw; */
     border: 2px solid rgb(105,52,52);
     width: 35%;
-    
     aspect-ratio: 1 !important;
 } 
-
-/* #ndouc {
-    position: relative;
-    font-size: 1.5vw;
-} */
-/* .senegalFlag {
-    position: absolute;
-     margin-left: 21vw;
-    margin-top: -1vh; 
-    width: 4%;
-    aspect-ratio: 16/9;
-} */
-
-@media only screen and (max-width: 1550px) {
-   
-}
-@media only screen and (max-width: 1250px) {
-   
-}
-
-@media only screen and (max-width: 1050px) {
-  
-}
 
 @media only screen and (max-width: 992px) {
     #townsign {
