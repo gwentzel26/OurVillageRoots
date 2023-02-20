@@ -30,7 +30,7 @@
     animation: shine 2s infinite;
   }
   
-  @-webkit-keyframes shine {
+  /* @-webkit-keyframes shine {
     from {
       -webkit-mask-position: 150%;
     }
@@ -38,7 +38,7 @@
     to {
       -webkit-mask-position: -50%;
     }
-  }
+  } */
 
   .logoContainer {
     display: flex;
