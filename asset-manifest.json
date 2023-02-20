@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OurVillageRoots/static/css/main.0b9e0b59.css",
-    "main.js": "/OurVillageRoots/static/js/main.c192d658.js",
+    "main.js": "/OurVillageRoots/static/js/main.df7ddb75.js",
     "static/js/496.53bad200.chunk.js": "/OurVillageRoots/static/js/496.53bad200.chunk.js",
     "static/media/ovrLogo.png": "/OurVillageRoots/static/media/ovrLogo.3013f17f8e857823481a.png",
     "static/media/AboutSabrina.jpeg": "/OurVillageRoots/static/media/AboutSabrina.a5fc6740a4224310b8dc.jpeg",
@@ -24,11 +24,11 @@
     "static/media/Tangerine-Regular.ttf": "/OurVillageRoots/static/media/Tangerine-Regular.6b04eb83dd71e2762243.ttf",
     "index.html": "/OurVillageRoots/index.html",
     "main.0b9e0b59.css.map": "/OurVillageRoots/static/css/main.0b9e0b59.css.map",
-    "main.c192d658.js.map": "/OurVillageRoots/static/js/main.c192d658.js.map",
+    "main.df7ddb75.js.map": "/OurVillageRoots/static/js/main.df7ddb75.js.map",
     "496.53bad200.chunk.js.map": "/OurVillageRoots/static/js/496.53bad200.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b9e0b59.css",
-    "static/js/main.c192d658.js"
+    "static/js/main.df7ddb75.js"
   ]
 }
