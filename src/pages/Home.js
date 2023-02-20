@@ -14,6 +14,8 @@ import threechildren from "../assets/images/threechildren.jpg";
 import oldman from "../assets/images/oldman.jpeg";
 import groupKids from "../assets/images/groupKids.jpeg";
 import { auto } from "@popperjs/core";
+import '../fonts/Sora,Tangerine/Tangerine/Tangerine-Regular.ttf';
+
 
 const Home = () => {
   return (
@@ -23,8 +25,12 @@ const Home = () => {
           <Navbar />
         </header>
         <main>
-                <div className="homeBackground">
-                  <h2 >Serving Mama Africa… One Village At A Time</h2>
+                <div className="homeBackground font-face-gm">
+                  <div className="titleText d-flex">
+                    <h2 >Serving Mama Africa</h2>
+                    <h4>One Village at a Time</h4>
+                  </div>
+                  
                 </div>
         </main>
       </div>

@@ -11,12 +11,7 @@ import {
   } from "react-bootstrap";
   import Navbar from "../components/Navbar";
 
-
-
-
 const Donation = () => {
-
-
     return(
         <>
             <header>
@@ -29,7 +24,6 @@ const Donation = () => {
 
 
         )
-
 }
 
 export default Donation;

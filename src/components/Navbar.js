@@ -14,11 +14,11 @@ export default class Navbar extends Component {
       <Nav className="d-flex navbar navbar-expand-lg">
         <div className="navContainer">
           <div className="d-flex navbar-nav" id="navbarLinks">
-                <a className="nav-item nav-link hover-underline-animation"
+                <a className="nav-item font-face-gm nav-link hover-underline-animation"
                   href="/history">History
                 </a>
                 
-                <a className="nav-item nav-link hover-underline-animation"
+                <a className="nav-item font-face-gm nav-link hover-underline-animation"
                   href="/aboutus"> About Us
                 </a>      
          </div>
@@ -28,8 +28,8 @@ export default class Navbar extends Component {
           </div>
 
           <div className="senegalContainer">
-            <div className="ndoukContainer">
-                <h1 id="ndouc">Ndoukouman Ndiaye, Senegal</h1>
+            <div className="ndoukContainer ">
+                <h1 id="ndouc" className="font-face-gm nav-link">Ndoukouman Ndiaye, Senegal</h1>
             </div>
 
             <div className="flagContainer">
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
 
           <div className="donateContainer">
             <button id="donateBtn">
-              <a className="nav-item nav-link" id="donateLink" href="/donate">
+              <a className="nav-item font-face-gm nav-link" id="donateLink" href="/donate">
                 Donate
               </a>
             </button>

@@ -1,6 +1,6 @@
 main {
     display: flex;
-    width: 100%;
+    width: 100vw;
     position: relative;
 }
 h1 {
@@ -12,15 +12,25 @@ h1 {
     font-weight: 800;
     font-size: 56px;
 }
+
+@font-face {
+    font-family:"TangerineRegular" ;
+    src: url('../fonts/Sora,Tangerine/Tangerine/Tangerine-Regular.ttf');
+}
+
 h2 {
-    color: rgb(105, 52, 52);
-    text-align: center;
-    font-size: 2.6vw;
-    font-family: kazimir;
+    background-color: rgba(160, 160, 160, .5);
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    font-size: 4.6vw;
+    /* font-family: , kazimir; */
+    
     font-style: normal;
-    font-weight: 400;
-    margin-left: 25%;
-    -webkit-text-stroke: .75px black; /* width and color */
+    font-weight: 800;
+    /* margin-left: 33%; */
+    margin-top: 7%;
+    padding: 0 3px 0 3px;
+    -webkit-text-stroke: .5px black; /* width and color */
 }
 
 h3 {
@@ -30,6 +40,16 @@ h3 {
     font-weight: 300;
 }
 
+h4 {
+    font-size: 2.6vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: .25px black; /* width and color */
+    background-color: rgba(160, 160, 160, .5);
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 75%;
+}
 .btmHome {
     /* background: linear-gradient(#fff4e7, #ffe8cd ) ; */
     background: linear-gradient(#eeb26e, #ba7143 ) ;
@@ -90,10 +110,10 @@ h3 {
     background-repeat: no-repeat;
     background-size: 100vw 105vh;
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     background-position: 75% 5%;
     aspect-ratio: 1.26;
-    align-items: flex-start;
+    justify-content: center;
   }
 .location {
     position: absolute;
@@ -112,13 +132,18 @@ h3 {
     margin-top: -2vh;
 }
 
+.titleText {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+}
 footer {
     text-align: center;
     font-size: 38px;
     font-family: cursive;
     color: white;
     font-weight: 400;
-    background-color: rgb(140, 37, 37);
+    background-color: rgb(91, 23, 23);
 }
 
 @media only screen and (max-width: 950px) {
