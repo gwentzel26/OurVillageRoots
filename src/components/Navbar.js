@@ -15,7 +15,7 @@ export default class Navbar extends Component {
         <div className="navContainer">
           <div className="d-flex navbar-nav" id="navbarLinks">
                 <a className="nav-item font-face-gm nav-link hover-underline-animation"
-                  href="/OurVillageRoots/history">History
+                  href="/history">History
                 </a>
                 
                 <a className="nav-item font-face-gm nav-link hover-underline-animation"
