@@ -15,16 +15,16 @@ export default class Navbar extends Component {
         <div className="navContainer">
           <div className="d-flex navbar-nav" id="navbarLinks">
                 <a className="nav-item font-face-gm nav-link hover-underline-animation"
-                  href="/history">History
+                  href="/OurVillageRoots/history">History
                 </a>
                 
                 <a className="nav-item font-face-gm nav-link hover-underline-animation"
-                  href="/aboutus"> About Us
+                  href="/OurVillageRoots/aboutus"> About Us
                 </a>      
          </div>
 
           <div className="logoContainer">
-              <a className="logoLink" href="/"> <img className="ovrLogo" src={ovrLogo} alt="companyLogo"  /></a>
+              <a className="logoLink" href="/OurVillageRoots"> <img className="ovrLogo" src={ovrLogo} alt="companyLogo"  /></a>
           </div>
 
           <div className="senegalContainer">
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
 
           <div className="donateContainer">
             <button id="donateBtn">
-              <a className="nav-item font-face-gm nav-link" id="donateLink" href="/donate">
+              <a className="nav-item font-face-gm nav-link" id="donateLink" href="/OurVillageRoots/donate">
                 Donate
               </a>
             </button>
