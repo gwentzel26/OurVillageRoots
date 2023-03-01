@@ -21,8 +21,6 @@ const Donation = () => {
             <h2>Donate</h2>
       
         </>
-
-
         )
 }
 
