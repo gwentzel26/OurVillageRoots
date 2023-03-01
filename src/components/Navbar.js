@@ -24,7 +24,7 @@ export default class Navbar extends Component {
          </div>
 
           <div className="logoContainer">
-              <a className="logoLink" href="/OurVillageRoots"> <img className="ovrLogo" src={ovrLogo} alt="companyLogo"  /></a>
+              <a className="logoLink" href="/"> <img className="ovrLogo" src={ovrLogo} alt="companyLogo"  /></a>
           </div>
 
           <div className="senegalContainer">
