@@ -19,7 +19,7 @@ export default class Navbar extends Component {
                 </a>
                 
                 <a className="nav-item font-face-gm nav-link hover-underline-animation"
-                  href="/OurVillageRoots/aboutus"> About Us
+                  href="/aboutus"> About Us
                 </a>      
          </div>
 
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
 
           <div className="donateContainer">
             <button id="donateBtn">
-              <a className="nav-item font-face-gm nav-link" id="donateLink" href="/OurVillageRoots/donate">
+              <a className="nav-item font-face-gm nav-link" id="donateLink" href="/donate">
                 Donate
               </a>
             </button>

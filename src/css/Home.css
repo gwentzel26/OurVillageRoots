@@ -195,18 +195,23 @@ footer {
         max-width: 50%;
     }
     .homeBackground {
-    background-position: top;
+    /* background-position: top; */
+    }
+    .titleText {
+        margin-top: 40%;
     }
     h2 {
-       color: rgb(105, 52, 52);
-        font-size: 6vw;
-        font-family: kazimir Georgia, 'Times New Roman', Times, serif;
-        font-style: normal;
-        font-weight: 400;
-        margin-left: 25%;
-        -webkit-text-stroke: .15px black; /* width and color */
-        display: none;
+         font-size: 10vw;
+        
+        margin-top: -25%;
+        /* -webkit-text-stroke: .15px black; */
     }
+    h4 {
+        font-size: 7vw;
+        font-weight: 800;
+    }
+
+    
 }
 
 /* @media only screen and (max-width: 375px) {
