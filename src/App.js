@@ -10,13 +10,14 @@ import Donation from './pages/Donation';
 function App() {
   return (
     <>
-     <Routes>
+
+     {/* <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path='/history' element = {<History/>} />
         <Route exact path='/aboutus' element = {<AboutUs/>} />
         <Route exact path='/donate' element = {<Donation/>} />
-    </Routes> 
-{/* <BrowserRouter>
+    </Routes>  */}
+ <BrowserRouter>
     <Routes> 
         <Route path="/" element={<Home />} />
         <Route path='/history' element = {<History/>} />
@@ -24,7 +25,7 @@ function App() {
         <Route path='/donate' element = {<Donation/>} />
     </Routes> 
     
-    </BrowserRouter> */}
+    </BrowserRouter> 
 
   
     </>
