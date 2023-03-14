@@ -11,15 +11,15 @@ function App() {
   return (
     <>
 
-<HashRouter basename="/">
-    <Routes> 
+<HashRouter>
+    
         <Route path="/" element={<Home />} />
         <Route path='/history' element = {<History/>} />
         <Route path='/aboutus' element = {<AboutUs/>} />
         <Route path='/donate' element = {<Donation/>} />
-    </Routes> 
+   
     
-    </HashRouter>
+</HashRouter>
     </>
   );
 }
