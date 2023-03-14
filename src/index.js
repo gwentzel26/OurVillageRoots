@@ -5,7 +5,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
+);
 // root.render(
 //   <React.StrictMode>
 //     <App />
@@ -16,13 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
-ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </React.StrictMode>
-)
+
 
 
 reportWebVitals();
