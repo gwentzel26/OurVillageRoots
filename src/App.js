@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import {HashRouter, BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from './pages/Home';
 import History from './pages/History';
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
 
-<BrowserRouter>
+<HashRouter basename="/">
     <Routes> 
         <Route path="/" element={<Home />} />
         <Route path='/history' element = {<History/>} />
@@ -19,7 +19,7 @@ function App() {
         <Route path='/donate' element = {<Donation/>} />
     </Routes> 
     
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }
