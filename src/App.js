@@ -17,16 +17,16 @@ function App() {
         <Route exact path='/aboutus' element = {<AboutUs/>} />
         <Route exact path='/donate' element = {<Donation/>} />
     </Routes>  */}
- <BrowserRouter basename='/'>
+ <BrowserRouter>
+  <HashRouter basename="/">
     <Routes> 
         <Route path="/" element={<Home />} />
         <Route path='/history' element = {<History/>} />
         <Route path='/aboutus' element = {<AboutUs/>} />
         <Route path='/donate' element = {<Donation/>} />
     </Routes> 
-    
-    </BrowserRouter> 
-
+   </HashRouter>
+  </BrowserRouter> 
   
     </>
   );
