@@ -17,16 +17,16 @@ function App() {
         <Route exact path='/aboutus' element = {<AboutUs/>} />
         <Route exact path='/donate' element = {<Donation/>} />
     </Routes>  */}
- <BrowserRouter>
-  <HashRouter basename="/">
+
+  <BrowserRouter basename="/">
     <Routes> 
-        <Route path="/" element={<Home />} />
-        <Route path='/history' element = {<History/>} />
-        <Route path='/aboutus' element = {<AboutUs/>} />
-        <Route path='/donate' element = {<Donation/>} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path='/history' element = {<History/>} />
+        <Route exact path='/aboutus' element = {<AboutUs/>} />
+        <Route exact path='/donate' element = {<Donation/>} />
     </Routes> 
-   </HashRouter>
-  </BrowserRouter> 
+   </BrowserRouter>
+ 
   
     </>
   );

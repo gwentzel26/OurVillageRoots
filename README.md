@@ -25,5 +25,5 @@
   my username is gwentzel26
 
 ## **Links <a id="links"></a>**
-  Deployed Application: "https://www.ourvillageroots.org/"
+  Deployed Application: "https://ourvillageroots.org/"
   Github Repository: "https://github.com/gwentzel26/OurVillageRoots"
