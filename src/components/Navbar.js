@@ -39,7 +39,7 @@ export default class Navbar extends Component {
 
           <div className="donateContainer">
             <button id="donateBtn">
-              <a className="nav-item font-face-gm nav-link" id="donateLink" href="/donate">
+              <a className="nav-item font-face-gm nav-link" id="donateLink" href="https://www.facebook.com/donate/1283243242590793/10230320374172776">
                 Donate
               </a>
             </button>
